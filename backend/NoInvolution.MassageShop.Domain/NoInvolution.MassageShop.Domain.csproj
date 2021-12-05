@@ -6,4 +6,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MiCake.DDD.Domain" Version="0.6.0-CI-20210813-024648" />
+    <PackageReference Include="MiCake.Identity" Version="0.6.0-CI-20210813-024648" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NoInvolution.MassageShop.Infrastructure\NoInvolution.MassageShop.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\ValueObj\" />
+    <Folder Include="PersonnelContext\Entities\" />
+    <Folder Include="PersonnelContext\Repositories\" />
+    <Folder Include="ReserveContext\Repositories\" />
+  </ItemGroup>
+
 </Project>

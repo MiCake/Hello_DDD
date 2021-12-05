@@ -7,12 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MiCake.EntityFrameworkCore" Version="0.6.0-CI-20210813-024648" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\NoInvolution.MassageShop.Domain\NoInvolution.MassageShop.Domain.csproj" />
   </ItemGroup>
 
