@@ -1,10 +1,19 @@
 ﻿using MiCake.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using NoInvolution.MassageShop.Domain.PersonnelContext;
+using NoInvolution.MassageShop.Domain.ReserveContext;
 
 namespace NoInvolution.MassageShop.EntityFramework
 {
     public class MassageDbContext : DbContext
     {
+        // PersonnelContext
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Technician> Technicians { get; set; }
+
+        // ReserveContext
+        public DbSet<MassageSchedule> MassageSchedules { get; set; }
+
         private readonly IServiceProvider _services;
         public MassageDbContext(DbContextOptions options, IServiceProvider serviceProvider) : base(options)
         {
@@ -23,6 +32,8 @@ namespace NoInvolution.MassageShop.EntityFramework
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.AddMiCakeModel();
+
+            modelBuilder.AddPersonnelContextModel();
         }
     }
 }

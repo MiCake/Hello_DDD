@@ -13,7 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Folder Include="Controllers\PersonnelContext\" />
+    <Folder Include="Models\Dtos\PersonnelContext\" />
   </ItemGroup>
 
   <ItemGroup>
