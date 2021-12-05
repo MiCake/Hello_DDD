@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using NoInvolution.MassageShop.Domain.PersonnelContext;
 using NoInvolution.MassageShop.Domain.ReserveContext;
+using NoInvolution.MassageShop.EntityFramework.ReserveContext;
 
 namespace NoInvolution.MassageShop.EntityFramework
 {
@@ -20,6 +21,10 @@ namespace NoInvolution.MassageShop.EntityFramework
             _services = serviceProvider;
         }
 
+        protected MassageDbContext()
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
@@ -33,7 +38,8 @@ namespace NoInvolution.MassageShop.EntityFramework
 
             modelBuilder.AddMiCakeModel();
 
-            modelBuilder.AddPersonnelContextModel();
+            modelBuilder.AddPersonnelContextModel()
+                        .AddReserveContextModel();
         }
     }
 }

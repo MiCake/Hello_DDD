@@ -9,7 +9,7 @@ namespace NoInvolution.MassageShop.EntityFramework
         public override void ConfigServices(ModuleConfigServiceContext context)
         {
             // customer repositories
-            context.AutoRegisterRepositories(typeof(MassageDomainModule).Assembly, (repo, repoInterface, index) =>
+            context.AutoRegisterRepositories(typeof(MassageEFCoreModule).Assembly, (repo, repoInterface, index) =>
             {
                 return repoInterface.Name.Contains(repo.Name);
             });

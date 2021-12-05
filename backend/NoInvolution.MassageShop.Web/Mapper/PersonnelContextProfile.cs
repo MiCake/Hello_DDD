@@ -2,7 +2,7 @@
 
 namespace NoInvolution.MassageShop.Web.Mapper
 {
-    public class PersonnelContextProfile:Profile
+    public class PersonnelContextProfile : Profile
     {
         public PersonnelContextProfile()
         {

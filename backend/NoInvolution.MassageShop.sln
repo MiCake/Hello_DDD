@@ -16,9 +16,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4ADB3CF3-8231-49CC-8141-9FEF8B2DDA92}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		operate.md = operate.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{C75EAEA2-4A06-4695-BD90-C0D00146B475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoInvolution.MassageShop.MigrationTool", "NoInvolution.MassageShop.MigrationTool\NoInvolution.MassageShop.MigrationTool.csproj", "{F8C7BDD7-0FDD-4ECA-AAE8-6C56F37A752A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,9 +49,16 @@ Global
 		{885F412A-A6CD-4274-A261-11A8FA585D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{885F412A-A6CD-4274-A261-11A8FA585D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{885F412A-A6CD-4274-A261-11A8FA585D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C7BDD7-0FDD-4ECA-AAE8-6C56F37A752A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C7BDD7-0FDD-4ECA-AAE8-6C56F37A752A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C7BDD7-0FDD-4ECA-AAE8-6C56F37A752A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C7BDD7-0FDD-4ECA-AAE8-6C56F37A752A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8C7BDD7-0FDD-4ECA-AAE8-6C56F37A752A} = {C75EAEA2-4A06-4695-BD90-C0D00146B475}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF24BA49-990A-4AC2-84B9-6BC61637AA7C}
