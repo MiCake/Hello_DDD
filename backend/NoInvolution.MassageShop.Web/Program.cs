@@ -23,6 +23,7 @@ app.Run();
 void ConfigureServices(WebApplicationBuilder webBuilder)
 {
     // Add EFCore
+    AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
     webBuilder.Services.AddDbContext<MassageDbContext>(options =>
     {
         options.UseNpgsql(webBuilder.Configuration.GetConnectionString("Postgre"));

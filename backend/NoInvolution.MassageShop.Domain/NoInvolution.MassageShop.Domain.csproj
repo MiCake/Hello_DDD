@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MiCake.DDD.Domain" Version="0.6.0-CI-20210813-024648" />
-    <PackageReference Include="MiCake.Identity" Version="0.6.0-CI-20210813-024648" />
+    <PackageReference Include="MiCake.DDD.Domain" Version="0.7.0-CI-20211205-134413" />
+    <PackageReference Include="MiCake.Identity" Version="0.7.0-CI-20211205-134413" />
   </ItemGroup>
 
   <ItemGroup>
