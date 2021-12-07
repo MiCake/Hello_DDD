@@ -1,0 +1,1 @@
+export declare function getSharePoster(obj: any): Promise<any>;

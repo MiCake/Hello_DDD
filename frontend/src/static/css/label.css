@@ -1,0 +1,207 @@
+/* 标签 */
+
+.bg-label1.light {
+  color: #ff3434;
+  background: #fadbd9;
+}
+
+.bg-label2.light {
+  color: #7fd02b;
+  background: #eaf8f5;
+}
+
+.bg-label3.light {
+  color: #0070ff;
+  background: #e5f1ff;
+}
+
+.bg-label4.light {
+  color: #9ddb47;
+  background: #e8f4d9;
+}
+
+.bg-label5.light {
+  color: #f39902;
+  background: #fde6d2;
+}
+
+.bg-label6.light {
+  color: #7f2d00;
+  background: #ede1d9;
+}
+
+.bg-label7.light {
+  color: #ff4f94;
+  background: #f9d7ea;
+}
+
+.bg-label8.light {
+  color: #6f68df;
+  background: #e1d7f0;
+}
+
+.bg-label9.light {
+  color: #9c26b0;
+  background: #ebd4ef;
+}
+
+.bg-label10.light {
+  color: #19cf8a;
+  background: #d2f1f0;
+}
+
+.bg-label11.light {
+  color: #8799a3;
+  background: #e7ebed;
+}
+
+
+.bg-index1 {
+  background-color: #F33F5A;
+  color: #fff;
+}
+
+.bg-index2 {
+  background-color: #954FF6;
+  color: #fff;
+}
+
+.bg-index3 {
+  background-color: #5177EE;
+  color: #fff;
+}
+
+.bg-index4 {
+  background-color: #FFC32E;
+  color: #fff;
+}
+
+.bg-index5 {
+  background-color: #FF4F94;
+  color: #fff;
+}
+
+.bg-index6 {
+  background-color: #0acffe;
+  color: #fff;
+}
+
+/*  */
+
+.bg-exper1 {
+  background-color: #19D08B;
+  color: #fff;
+}
+
+.bg-exper2 {
+  background-color: #006FFF;
+  color: #fff;
+}
+
+.bg-exper3 {
+  background-color: #FF4F94;
+  color: #fff;
+}
+
+.bg-exper4 {
+  background-color: #F49A02;
+  color: #fff;
+}
+
+.bg-exper5 {
+  background-color: #7FD02B;
+  color: #fff;
+}
+
+.bg-exper6 {
+  background-color: #19CF8A;
+  color: #fff;
+}
+
+/*  */
+.bg-kuxuan1 {
+  background-color: #FF5656;
+  color: #fff;
+}
+
+.bg-kuxuan2 {
+  background-color: #6F68DF;
+  color: #fff;
+}
+
+.bg-kuxuan3 {
+  background-color: #9c26b0;
+  color: #fff;
+}
+
+.bg-kuxuan4 {
+  background-color: #0070FF;
+  color: #fff;
+}
+
+.bg-kuxuan5 {
+  background-color: #0396FF;
+  color: #fff;
+}
+
+.bg-kuxuan6 {
+  background-color: #BC78EC;
+  color: #fff;
+}
+
+/* 界面 */
+
+.bg-inter1 {
+  color: #fff;
+  background: #6f68df;
+}
+
+.bg-inter2 {
+  color: #fff;
+  background: #7fd02b;
+}
+
+.bg-inter3 {
+  color: #fff;
+  background: #0070ff;
+}
+
+.bg-inter4 {
+  color: #fff;
+  background: #9ddb47;
+}
+
+.bg-inter5 {
+  color: #fff;
+  background: #f39902;
+}
+
+.bg-inter6 {
+  color: #fff;
+  background: #7f2d00;
+}
+
+.bg-inter7 {
+  color: #fff;
+  background: #ff3434;
+}
+
+.bg-inter8 {
+  color: #fff;
+  background: #ff4f94;
+}
+
+.bg-inter9 {
+  color: #fff;
+  background: #9c26b0;
+}
+
+.bg-inter10 {
+  color: #fff;
+  background: #19cf8a;
+}
+
+.bg-inter11 {
+  color: #fff;
+  background: #8799a3;
+}

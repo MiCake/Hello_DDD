@@ -1,0 +1,9 @@
+$primary-color: #39b54a !global;
+
+$text-color:white;
+
+
+.primary {
+	background-color: $primary-color !important;
+    color: $text-color !important;
+}

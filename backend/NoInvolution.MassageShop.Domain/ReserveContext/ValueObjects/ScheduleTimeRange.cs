@@ -22,4 +22,28 @@ namespace NoInvolution.MassageShop.Domain.ReserveContext
         public double GetHour()
             => (EndTime - StartTime).TotalHours;
     }
+
+    public class Women
+    {
+        public string Name { get; set; } = "BiaoMei";
+
+        public People MyBoyFriend { get; private set; }
+
+        public void SetBoyFriend(People people)
+        {
+            if (people.Age > 27)
+            {
+                throw new Exception("我不接受");
+            }
+
+            // 更多要求
+
+            MyBoyFriend = people;
+        }
+    }
+
+    public class People
+    {
+        public int Age { get; set; }
+    }
 }
